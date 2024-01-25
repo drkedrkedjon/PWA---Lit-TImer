@@ -1,7 +1,7 @@
 {
-  "name": "@drkedrkedjon/timer",
+  "name": "@drkedrkedjon/sound-component",
   "version": "1.0.0",
-  "description": "Lit web component - Timer",
+  "description": "Lit web component - sound alert",
   "main": "index.js",
   "author": "Drkedrkedjon",
   "license": "ISC",
