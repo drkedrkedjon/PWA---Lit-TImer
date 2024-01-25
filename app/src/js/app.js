@@ -1,5 +1,5 @@
 import { LitElement, css, html } from "lit";
-import { TimerComponent } from "../../node_modules/@drkedrkedjon/timer/dist/index.js";
+import * as TimerComponent from "../../node_modules/@drkedrkedjon/timer/dist/index.js";
 
 export class App extends LitElement {
   connectedCallback() {
