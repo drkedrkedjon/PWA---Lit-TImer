@@ -100,11 +100,11 @@ module.exports = (env, argv) => ({
       filename: "[name].css",
     }),
     //Se pone la configuración de copiar archivos
-    // new CopyPlugin({
-    //   patterns: [
-    //     { from: "./src/image/pantallazo", to: "assets" },
-    //     { from: "./sw.js", to: "./" },
-    //   ],
-    // }),
+    new CopyPlugin({
+      patterns: [
+        // { from: "./src/image/pantallazo", to: "assets" },
+        { from: "./sw.js", to: "./" },
+      ],
+    }),
   ],
 });
