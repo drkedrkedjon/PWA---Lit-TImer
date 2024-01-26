@@ -1,5 +1,5 @@
-const CACHE_STACTIC_NAME = "static-v2";
-const CACHE_DYNAMIC_NAME = "dynamic-v1";
+const CACHE_STACTIC_NAME = "static-v3";
+const CACHE_DYNAMIC_NAME = "dynamic-v2";
 
 self.addEventListener("install", function (event) {
   console.log("Service Worker installing.", event);
@@ -9,6 +9,7 @@ self.addEventListener("install", function (event) {
       cache.addAll([
         "/",
         "/index.html",
+        "/manifest.json",
         "/main.css",
         "/main.bundle.js",
         "/assets/TimerPWA-logos_transparent.png",
